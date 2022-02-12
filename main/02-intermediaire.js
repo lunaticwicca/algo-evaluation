@@ -29,6 +29,15 @@
  * Par exemple : rotate([1, 2, 3, 4, 5], 2) renverra [4, 5, 1, 2, 3] 
  */
 function rotate(tableau, offset) {
+    var array1 = [];
+    var array2 = [];
+    array1.push(tableau.slice(0, offset));
+
+    array2.push(tableau.slice(offset));
+
+    var array3=
+    array2.concat(array3)
+    console.log(array3);
 
 }
 
