@@ -17,9 +17,6 @@
     var array1Combine = [1, 2, 3, 4, 5];
     var array2Combine = ['raspberry', 'apple', 'strawberry', 'pear', 'banana'];
     console.log(combine(array1Combine, array2Combine))
-    
-
-
 
 
 /**
