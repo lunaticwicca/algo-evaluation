@@ -36,6 +36,4 @@ function nombresPairs(nombres) {
     return nombresPairs
 
 }
-git add --all
-git commit -m "<votre message de commit>"
-git push 
+
