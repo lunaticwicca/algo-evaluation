@@ -26,5 +26,13 @@
  * Astuce : un nombre pair est un nombre dont le reste de la division par 2 est 0.
  */
 function nombresPairs(nombres) {
+    nombrePaires=[];
+    nombres.forEach(nombre =>{
+        if (nombre % 2 == 0){
+
+            nombresPairs.push(nombre)
+        }
+    });
+    return nombresPairs
 
 }
